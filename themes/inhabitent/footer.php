@@ -2,16 +2,22 @@
 /**
  * The template for displaying the footer.
  *
- * @package RED_Starter_Theme
+ * @package inhabitent_Theme
  */
 
 ?>
-
-			</div><!-- #content -->
+			</div class=contact-info">
+			<p>Contact Info</p>
+			<ul>
+				<li>info@inhabitent.com</li>
+				<li>778-456-7891</li>
+				 			
+			
+			</div>
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
 				<div class="site-info">
-					<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a>
+
 				</div><!-- .site-info -->
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
@@ -20,3 +26,4 @@
 
 	</body>
 </html>
+<i class="fab fa-google"></i>
