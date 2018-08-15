@@ -666,3 +666,5 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.site-footer {
+  background-image: url("../../images/dark-wood.png"); }
