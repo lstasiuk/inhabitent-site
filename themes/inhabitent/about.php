@@ -5,7 +5,7 @@
  * 
  * The template for displaying all pages.
  *
- * @package inhabitent_Theme
+ * @package Inhabitent_Theme
  */
 
 get_header(); ?>

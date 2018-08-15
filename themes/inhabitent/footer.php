@@ -2,7 +2,7 @@
 /**
  * The template for displaying the footer.
  *
- * @package inhabitent_Theme
+ * @package Inhabitent_Theme
  */
 
 ?>
@@ -24,7 +24,10 @@
 				<li>Sunday: Closed</li>
 			</ul>
 
+			<div class="copyright">
+			<p>Copyright © 2018 Inhabitent</p>
 
+			
 
 
 				</div><!-- .site-info -->

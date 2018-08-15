@@ -2,7 +2,7 @@
 /**
  * The main template file.
  * Template Name: Home Page
- * @package inhabitent_Theme
+ * @package Inhabitent_Theme
  */
 
 get_header(); ?>

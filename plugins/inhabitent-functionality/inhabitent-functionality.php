@@ -1,7 +1,7 @@
 <?php
  /**
  *
- * @package   INhabitent Functionality
+ * @package   Inhabitent Functionality
  * @author    Leanne Stasiuk <leanne.stasiuk@gmail.com>
  * @license   GPL-2.0+
  * @copyright 2018 Leanne Stasiuk

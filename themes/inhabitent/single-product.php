@@ -2,7 +2,7 @@
 /**
  * The template for displaying all single posts.
  *
- * @package inhabitent_Theme
+ * @package Inhabitent_Theme
  */
 
 get_header(); ?>
@@ -16,7 +16,7 @@ get_header(); ?>
 /**
  * Template part for displaying single posts.
  *
- * @package inhabitent_Theme
+ * @package Inhabitent_Theme
  */
 
 ?>

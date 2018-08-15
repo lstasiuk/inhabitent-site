@@ -2,7 +2,7 @@
 /**
  * Template part for displaying a message that posts cannot be found.
  *
- * @package inhabitent_Theme
+ * @package Inhabitent_Theme
  */
 
 ?>
