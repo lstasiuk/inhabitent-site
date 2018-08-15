@@ -1,5 +1,8 @@
 <?php
 /**
+ * * Template Name: About Page
+ * 
+ * 
  * The template for displaying all pages.
  *
  * @package inhabitent_Theme
@@ -19,5 +22,4 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

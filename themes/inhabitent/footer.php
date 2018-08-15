@@ -6,17 +6,26 @@
  */
 
 ?>
-			</div class=contact-info">
+			
+			<footer id="colophon" class="site-footer" role="contentinfo">
+			<div class="contact-info">
 			<p>Contact Info</p>
 			<ul>
 				<li>info@inhabitent.com</li>
 				<li>778-456-7891</li>
-				 			
-			
+				<i class="fab fa-facebook-square"></i> <i class="fab fa-twitter-square"></i> <i class="fab fa-google-plus-g"></i>
+			</ul> 			
 			</div>
+			<div class="business-hours">
+			<p>Business Hours</p>
+			<ul>
+				<li>Monday-Friday: 9am to 5pm</li>
+				<li>Saturday: 10am to 2pm</li>
+				<li>Sunday: Closed</li>
+			</ul>
 
-			<footer id="colophon" class="site-footer" role="contentinfo">
-				<div class="site-info">
+
+
 
 				</div><!-- .site-info -->
 			</footer><!-- #colophon -->
@@ -26,4 +35,3 @@
 
 	</body>
 </html>
-<i class="fab fa-google"></i>
