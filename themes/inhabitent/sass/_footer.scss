@@ -1,3 +1,37 @@
 .site-footer {
     background-image: url("../../images/dark-wood.png");
+    height: 300px;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    color: white;
+}
+
+i {
+    color: white;
+}
+
+.copyright p {
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+.footer-logo {
+    margin-left: auto;
+}
+
+.footer-list {
+    p {
+        color: #d99054;
+        text-transform: uppercase;
+    }
 }

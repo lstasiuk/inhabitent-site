@@ -667,4 +667,38 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 .site-footer {
-  background-image: url("../../images/dark-wood.png"); }
+  background-image: url("../../images/dark-wood.png");
+  height: 300px; }
+
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+li {
+  color: white; }
+
+i {
+  color: white; }
+
+.copyright p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  text-align: center; }
+
+.footer-logo {
+  margin-left: auto; }
+
+.footer-list p {
+  color: #d99054;
+  text-transform: uppercase; }
