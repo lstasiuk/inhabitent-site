@@ -13,7 +13,7 @@
 					<ul>
 						<li>info@inhabitent.com</li>
 						<li>778-456-7891</li>
-						<i class="fab fa-facebook-square"> </i> <i class="fab fa-twitter-square"> </i> <i class="fab fa-google-plus-g"></i>
+						<i class="fab fa-facebook-square"> </i> <i class="fab fa-twitter-square"> </i> <i class="fab fa-google-plus-g"> </i>
 					</ul> 			
 					</div>
 					<div class="business-hours footer-list">
