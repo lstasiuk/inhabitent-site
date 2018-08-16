@@ -1,28 +1,42 @@
 // Structure
-
 $base__space-unit: 1.5rem;
-
+$width_fixed: 1120px;
+$border-solid: 1px solid #e1e1e1;
+$border-dashed: 1px dashed #c8c8c8;
 // Colors
-
 $color__background-body: #fff;
 $color__text-main: #404040;
-
 $color__background-screen: #f1f1f1;
 $color__text-screen: #21759b;
-
 $color__background-hr: #ccc;
 $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
 $color__border-abbr: #666;
-
 $color__link: royalblue;
 $color__link-visited: purple;
 $color__link-hover: midnightblue;
-
+$color_footer-headings: #d99054;
+$color_green-brand: #248a83;
+$color_purple-brand: #2f1339;
+$color_yellow-brand: #f0e4d1;
+$color_lightgrey-brand: #a1a1a1;
+$color_mediumgrey-brand:#808080;
 // Typography
-
-$font__main: sans-serif;
-$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-$font__pre: "Courier 10 Pitch", Courier, monospace;
-$font__line-height-body: 1.5;
-$font__line-height-pre: 1.6;
+$font__main: "Merriweather",
+Arial,
+Helvetica;
+$font_accent: "Novecento Sans Web",
+Arial,
+Helvetica;
+$font__code: Monaco,
+Consolas,
+"Andale Mono",
+"DejaVu Sans Mono",
+monospace;
+$font__pre: "Courier 10 Pitch",
+Courier,
+monospace;
+$font__line-height-body: 1.75;
+$font__line-height-pre: 1.75;
+$font_line-height-base: 1.75;
+$font_size-base: 16px;
