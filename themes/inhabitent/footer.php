@@ -7,9 +7,8 @@
 ?>
 	
 			<footer id="colophon" class="site-footer" role="contentinfo">
-				<div class="footer-container">
-					<div class="contact-info footer-list">
-					<p>Contact Info</p>
+				<div class="footer-container" "footer-list">
+					<div class="contact-info">					<p>Contact Info</p>
 					<ul>
 						<li><i class="far fa-envelope"></i>info@inhabitent.com</li>
 						<li><i class="fas fa-phone"></i>778-456-7891</li>
