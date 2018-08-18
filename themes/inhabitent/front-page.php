@@ -7,7 +7,12 @@
 
 get_header(); ?>
 
-	
+<div class="front-background-image"> 
+  <h1>Shop Stuff</h1>
+  <h1>Inhabitent Journal</h1>
+</p>
+</div>
+
   <?php
    $args = array( 'post_type' => 'post', 'order' => 'ASC', 'numberposts' => 3 );
    $journal_posts = get_posts( $args ); // returns an array of posts

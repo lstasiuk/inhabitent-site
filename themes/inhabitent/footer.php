@@ -5,15 +5,25 @@
  * @package Inhabitent_Theme
  */
 ?>
-	
-			<footer id="colophon" class="site-footer" role="contentinfo">
-				<div class="footer-container" "footer-list">
-					<div class="contact-info">					<p>Contact Info</p>
-					<ul>
-						<li><i class="far fa-envelope"></i>info@inhabitent.com</li>
-						<li><i class="fas fa-phone"></i>778-456-7891</li>
-						<i class="fab fa-facebook-square"> </i> <i class="fab fa-twitter-square"> </i> <i class="fab fa-google-plus-g"> </i>
-					</ul> 			
+	 			<footer id="colophon" class="site-footer" role="contentinfo">
+				<div class="footer-container footer-list">
+				<p>Contact Info</p>
+				<ul>
+								<li>
+									<i class="fas fa-envelope"></i>
+									info@inhabitent.com
+								</li>
+								<li>
+									<i class="fas fa-phone"></i>
+									778-456-7891
+								</li>
+								<li>
+									<i class="fab fa-facebook-square"></i>
+									<i class="fab fa-twitter-square"></i>
+									<i class="fab fa-google-plus-square"></i>
+									<i class="fab fa-instagram"></i>
+								</li>
+							</ul>
 					</div>
 					<div class="business-hours footer-list">
 					<p>Business Hours</p>
@@ -29,7 +39,7 @@
 					</div>
 </div>
 				<div class="copyright">
-					<p>Copyright © 2018 Inhabitent</p>
+					<p>copyright &copy; 2018 inhabitent</p>
 					</div>
 
 

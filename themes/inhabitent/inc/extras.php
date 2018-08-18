@@ -81,4 +81,3 @@ function inhabitent_wp_trim_excerpt( $text ) {
 }
 remove_filter( 'get_the_excerpt', 'wp_trim_excerpt' );
 add_filter( 'get_the_excerpt', 'inhabitent_wp_trim_excerpt' );
-
