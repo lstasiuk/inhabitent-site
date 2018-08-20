@@ -52,6 +52,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 // CSS included in style.css.
 @import "normalize";
 @import "fonts";
+@import "header";
 @import "typography";
 @import "elements";
 @import "forms";
@@ -63,3 +64,5 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "page-templates";
 @import "footer";
 @import "front-page";
+@import "home";
+@import "sidebar";

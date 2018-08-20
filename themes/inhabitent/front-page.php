@@ -33,7 +33,7 @@ get_header(); ?>
 
 </section>
 
-  <h3>Inhabitent Joural</h3>
+  <h3>Inhabitent Journal</h3>
 
 <section class="journals">
 
@@ -48,7 +48,7 @@ get_header(); ?>
       <a href='<?php the_permalink(); ?>'>
       <h2><?php the_title(); ?></h2>
       </a>
-      <a id='read-entry' href='<?php the_permalink(); ?>'>READ ENTRY</a>
+      <a id='read-entry' href='<?php the_permalink(); ?>'>Read Entry</a>
 
       </div>
 
@@ -58,41 +58,41 @@ get_header(); ?>
 
 <h3>Latest Adventures</h3>
 
-<section class="boxone">
+<section class="journal-posts">
   
-<div class="onex">
+<div class="button-canoe">
 
-<div class="one">
+<div class="canoe">
   <a>
 <h2>Getting Back to Nature in a Canoe</h2>
 </a>
-<a id='read-entry1' href='<?php the_permalink(); ?>'>READ ENTRY</a>
+<a id='read-entry1' href='<?php the_permalink(); ?>'>Read More</a>
 </div>
 
-<a id='tax-button1' href='<?php the_permalink(); ?>'>MORE ADVENTURES</a>
+<a id='button' href='<?php the_permalink(); ?>'>More Adventures</a>
 </div>
 
-<div class="boxtwo">
+<div class="beach">
 
-<div class="two">
+<div class="beach-friends">
   <a>
 <h2>A Night with Friends at the Beach</h2>
 </a>
-<a id='read-entry1' href='<?php the_permalink(); ?>'>READ ENTRY</a>
+<a id='read-entry1' href='<?php the_permalink(); ?>'>Read More</a>
 </div>
 
-<div class="three">
+<div class="mountain">
   <a>
 <h2>Taking in the View at Big Mountain</h2>
 </a>
-<a id='read-entry1' href='<?php the_permalink(); ?>'>READ ENTRY</a>
+<a id='read-entry1' href='<?php the_permalink(); ?>'>Read More</a>
 </div>
 
-<div class="four">
+<div class="night-sky">
   <a>
 <h2>Star-Gazing at the Night Sky</h2>
 </a>
-<a id='read-entry1' href='<?php the_permalink(); ?>'>READ ENTRY</a>
+<a id='entries' href='<?php the_permalink(); ?>'>Read More</a>
 </div>
 
 </div>

@@ -16,12 +16,36 @@ h3 {
     font-size: 40px;
 }
 
+p {
+    margin-top: 0;
+}
+
 .taxonomy-sections {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
+.journals {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    height: 50px;
+    width: 50px;
+}
+
+.journal-post {
+    height: 50px;
+    width: 50px;
+    #read-entry {
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}
+
+
+}
 #shopping {
     width: 20%;
     border: 1px solid grey;
@@ -31,24 +55,25 @@ h3 {
         width: 50px;
         height: 50px;
     }
+    
     &:hover {
         border: 3px ridge #d99054;
     }
 }
-
 .button {
     background-color: #248a83;
     width: 100px;
-    height: 50px;
+    height: 40px;
     text-align: center;
     margin: 0 auto;
     text-decoration: none;
+    margin-bottom: 30px;
+    color: white;
     &:hover {
         color: #19625d;
     }
 }
-
-.boxone {
+.journal-posts {
     display: flex;
     flex-direction: row;
     width: 99%;
@@ -58,101 +83,104 @@ h3 {
         color: white;
         padding: 0.75rem;
         text-decoration: none;
-        &:hover {
-            color: purple;
+        &:hover {}
+        h2 {
+            font-size: 30px;
+            margin-left: 10px;
         }
     }
-    h2 {
-        font-size: 33px;
-        margin-left: 10px;
-    }
-}
-
-.one {
-    height: 600px;
-    width: 100%;
-    border: 2px solid #d99054;
-    margin-bottom: 20px;
-    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/adventure-photos/canoe-girl.jpg);
-    background-size: cover, cover;
-    background-position: center, center;
-    &:hover {
-        border: 5px solid pink;
-    }
-}
-
-.onex {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    height: 577px;
-    width: 50%;
-    a {
-        width: 210px;
+    
+    .canoe {
+        height: 600px;
+        width: 100%;
+        border: 2px solid #d99054;
+        margin-bottom: 20px;
+        background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/adventure-photos/canoe-girl.jpg);
+        background-size: cover, cover;
+        background-position: center, center;
         &:hover {
-            color: purple;
+            border: 5px solid pink;
         }
     }
-}
-
-.boxtwo {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 500px;
-    width: 50%;
-}
-
-.two {
-    height: 250px;
-    width: 100%;
-    margin: 10px;
-    border: 2px solid #d99054;
-    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/adventure-photos/beach-bonfire.jpg);
-    background-size: cover, cover;
-    background-position: center, center;
-    &:hover {
-        border: 5px solid pink;
+    
+    .button-canoe {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        height: 100%;
+        width: 50%;
+        color: white;
     }
-}
-
-.three {
-    height: 250px;
-    width: 46.3%;
-    margin: 10px;
-    border: 2px solid #d99054;
-    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/adventure-photos/mountain-hikers.jpg);
-    background-size: cover, cover;
-    background-position: center, center;
-    &:hover {
-        border: 5px solid pink;
+    
+    #button {
+        height: 50 px;
+        width: 200px;
+        color: #248a83;
+        background-color: #19625d;
+        text-transform: uppercase;
+        font-family: "Novecento Sans Web"
     }
-    h2 {
-        margin-top: 0;
+    
+    .beach {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 500px;
+        width: 50%;
     }
-}
-
-.four {
-    height: 250px;
-    width: 46.3%;
-    margin: 10px;
-    border: 2px solid #d99054;
-    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/adventure-photos/night-sky.jpg);
-    background-size: cover, cover;
-    background-position: center, center;
-    &:hover {
-        border: 5px solid pink;
+    
+    .beach-friends {
+        height: 250px;
+        width: 100%;
+        margin: 10px;
+        border: 2px solid #d99054;
+        background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/adventure-photos/beach-bonfire.jpg);
+        background-size: cover, cover;
+        background-position: center, center;
+        &:hover {
+            border: 5px solid pink;
+        }
     }
-}
-
-#read-entry1 {
-    padding: 5px;
-    border: 1px solid white;
-    background-color: white;
-    text-decoration: none;
-    color: white;
-    background-color: transparent;
-    &:hover {
-        background: #248a83;
+    
+    .mountain {
+        height: 250px;
+        width: 46.3%;
+        margin: 10px;
+        border: 2px solid #d99054;
+        background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/adventure-photos/mountain-hikers.jpg);
+        background-size: cover, cover;
+        background-position: center, center;
+        &:hover {
+            border: 5px solid pink;
+        }
+        h2 {
+            margin-top: 0;
+        }
+    }
+    
+    .night-sky {
+        height: 250px;
+        width: 46.3%;
+        margin: 10px;
+        border: 2px solid #d99054;
+        background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/adventure-photos/night-sky.jpg);
+        background-size: cover, cover;
+        background-position: center, center;
+        &:hover {
+            border: 5px solid pink;
+        }
+    }
+    
+    #entries {
+        padding: 5px;
+        border: 1px solid white;
+        background-color: white;
+        text-decoration: none;
+        color: white;
+        background-color: transparent;
+        text-transform: uppercase;
+        &:hover {
+            background: #248a83;
+        }
     }
 }

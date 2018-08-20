@@ -79,5 +79,8 @@ function inhabitent_wp_trim_excerpt( $text ) {
 	}
 	return apply_filters( 'wp_trim_excerpt', $text, $raw_excerpt );
 }
+
+add_action('pre_get_posts', 'product_number');
+
 remove_filter( 'get_the_excerpt', 'wp_trim_excerpt' );
 add_filter( 'get_the_excerpt', 'inhabitent_wp_trim_excerpt' );
