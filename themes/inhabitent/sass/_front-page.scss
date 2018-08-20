@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-image: url(../../images/logos/inhabitent-logo-full.svg), linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/home-hero.jpg);
     background-size: 275px, cover, cover;
-    background-position: center 50%, center, center;
+    background-position: center 50%, center, top center;
 }
 
 h3 {
@@ -31,21 +31,16 @@ p {
     flex-direction: row;
     justify-content: center;
     text-transform: uppercase;
-    height: 50px;
-    width: 50px;
+    align-items: center;
 }
 
 .journal-post {
-    height: 50px;
-    width: 50px;
     #read-entry {
         text-transform: uppercase;
         text-decoration: none;
     }
 }
 
-
-}
 #shopping {
     width: 20%;
     border: 1px solid grey;
@@ -55,11 +50,11 @@ p {
         width: 50px;
         height: 50px;
     }
-    
     &:hover {
         border: 3px ridge #d99054;
     }
 }
+
 .button {
     background-color: #248a83;
     width: 100px;
@@ -73,11 +68,12 @@ p {
         color: #19625d;
     }
 }
-.journal-posts {
+
+.adventure-posts {
     display: flex;
-    flex-direction: row;
-    width: 99%;
-    height: auto;
+    // flex-direction: column;
+    // justify-content: flex-start;
+    // align-items: flex-start;
     margin-bottom: 20px;
     a {
         color: white;
@@ -89,7 +85,6 @@ p {
             margin-left: 10px;
         }
     }
-    
     .canoe {
         height: 600px;
         width: 100%;
@@ -102,7 +97,6 @@ p {
             border: 5px solid pink;
         }
     }
-    
     .button-canoe {
         display: flex;
         flex-direction: column;
@@ -111,7 +105,6 @@ p {
         width: 50%;
         color: white;
     }
-    
     #button {
         height: 50 px;
         width: 200px;
@@ -120,7 +113,6 @@ p {
         text-transform: uppercase;
         font-family: "Novecento Sans Web"
     }
-    
     .beach {
         display: flex;
         flex-direction: row;
@@ -128,7 +120,6 @@ p {
         height: 500px;
         width: 50%;
     }
-    
     .beach-friends {
         height: 250px;
         width: 100%;
@@ -141,7 +132,6 @@ p {
             border: 5px solid pink;
         }
     }
-    
     .mountain {
         height: 250px;
         width: 46.3%;
@@ -157,7 +147,6 @@ p {
             margin-top: 0;
         }
     }
-    
     .night-sky {
         height: 250px;
         width: 46.3%;
@@ -170,7 +159,6 @@ p {
             border: 5px solid pink;
         }
     }
-    
     #entries {
         padding: 5px;
         border: 1px solid white;

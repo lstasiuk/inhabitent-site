@@ -43,12 +43,12 @@ get_header(); ?>
 ?>
 <?php foreach ( $journal_posts as $post ) : setup_postdata( $post ); ?>
       <div class='journal-post'>
-      <?php the_post_thumbnail();?>
+      <?php the_post_thumbnail('large');?>
       <?php inhabitent_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' );?>
       <a href='<?php the_permalink(); ?>'>
       <h2><?php the_title(); ?></h2>
       </a>
-      <a id='read-entry' href='<?php the_permalink(); ?>'>Read Entry</a>
+      <a id='read-entry' href='<?php the_permalink(); ?>'>1Read Entry</a>
 
       </div>
 
@@ -58,7 +58,7 @@ get_header(); ?>
 
 <h3>Latest Adventures</h3>
 
-<section class="journal-posts">
+<section class="adventure-posts">
   
 <div class="button-canoe">
 

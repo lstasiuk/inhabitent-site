@@ -20,16 +20,18 @@ get_header(); ?>
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+      <div class="products-container">
+
+      <?php while ( have_posts() ) : the_post(); ?>
 
 				<div class="products">
-			<a href="<?php the_permalink();?>">	<?php	the_post_thumbnail();?></a>
-				<p><?php the_title(); echo CFS()->get("price");?></p>
+			<a href="<?php the_permalink();?>">	<?php	the_post_thumbnail();?></a> <div class="product-title">
+				<h5><?php the_title(); ?></h5><p><?php echo CFS()->get("price");?></p></div>
 				
 		</div>
 
 			<?php endwhile; ?>
-
+</div>
 			<?php the_posts_navigation(); ?>
 
 		<?php else : ?>
