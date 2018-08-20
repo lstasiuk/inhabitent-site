@@ -800,8 +800,9 @@ footer {
 h3 {
   text-transform: capitalize;
   font-family: "Novecento Sans Web";
+  font-weight: normal;
   text-align: center;
-  font-size: 80px; }
+  font-size: 40px; }
 
 .taxonomy-sections {
   display: -webkit-box;
@@ -831,9 +832,10 @@ h3 {
   width: 100px;
   height: 50px;
   text-align: center;
-  margin: 0 auto; }
-  .button a {
-    text-decoration: none; }
+  margin: 0 auto;
+  text-decoration: none; }
+  .button:hover {
+    color: #19625d; }
 
 .boxone {
   display: -webkit-box;

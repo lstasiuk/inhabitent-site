@@ -11,8 +11,9 @@
 h3 {
     text-transform: capitalize;
     font-family: "Novecento Sans Web";
+    font-weight: normal;
     text-align: center;
-    font-size: 80px;
+    font-size: 40px;
 }
 
 .taxonomy-sections {
@@ -41,10 +42,10 @@ h3 {
     height: 50px;
     text-align: center;
     margin: 0 auto;
-    a {
-        text-decoration: none;
+    text-decoration: none;
+    &:hover {
+        color: #19625d;
     }
-    &:hover {}
 }
 
 .boxone {
