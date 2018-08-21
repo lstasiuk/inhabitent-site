@@ -1,21 +1,16 @@
-# RED Starter
+INHABITENT SITE - Project #4
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+This is a multi-page website with a blog for a hipster camping supply company.  WordPress was used as the Content Management System.
 
-## Installation
+The site was made using a custom theme which also enables the client to dynamically modify information about their company on the WordPress backend themselves. 
 
-### 1. Download me (don't clone me!)
+Programs Used:
+PHP and HTML, using MAMP as a local server; SCSS, converted into CSS using Gulp task; JavaScript, jQuery library and WordPress.
 
-Then add me to your `wp-content` directory.
+Learnings:
+PHP and MAMP, using a Wordprses site for the first time.  In depth SCSS and building in a multi-page format.
 
-### 2. Rename the `redstarter-master` directory
 
-Make sure that the theme directory name is project appropriate!
 
-### 3. Install the dev dependencies
 
-Next you'll need to run `npm install` **inside your theme directory** next to install the node modules you'll need for Gulp, etc.
 
-### 4. Update the proxy in `gulpfile.js`
-
-Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `localhost[:port-here]/[your-dir-name-here]` to the appropriate localhost URL).
