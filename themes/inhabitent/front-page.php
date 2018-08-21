@@ -48,7 +48,7 @@ get_header(); ?>
       <a href='<?php the_permalink(); ?>'>
       <h2><?php the_title(); ?></h2>
       </a>
-      <a id='read-entry' href='<?php the_permalink(); ?>'>1Read Entry</a>
+      <a id='read-entry' href='<?php the_permalink(); ?>'>Read Entry</a>
 
       </div>
 

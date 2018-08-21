@@ -30,7 +30,7 @@ add_action( 'admin_menu', 'inhabitent_remove_submenus', 110 );
 
 function inhabitent_change_login() {
 	echo '<style type="text/css">                                                                   
-			h1 a { background-image:url("'.get_stylesheet_directory_uri().'/images/inhabitent-logo-text-dark.svg") !important; 
+			h1 a { background-image:url("'.get_stylesheet_directory_uri().'//inhabitent-logo-text-dark.svg") !important; 
 			height: 60px !important;
 			width: 300px !important;
 			background-size: 300px !important;}                            

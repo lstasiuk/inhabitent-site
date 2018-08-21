@@ -3,29 +3,46 @@
     grid-template-columns: repeat(4, 300px [col-start]);
     margin-left: 10rem;
     align-items: center;
+}
+
+.products {
+    border: 1px solid #a1a1a1;
+    margin-right: 10px;
+    margin-bottom: 20px;
     img {
-        border-bottom: 5px solid grey;
+        border-bottom: 5px solid #a1a1a1;
         height: 300px;
         width: 300px;
     }
     h5 {
-        content: ".............";
-        flex: nowrap;
+        font-weight: 300;
+        font-family: "Novecento San Web";
+        font-size: 18px;
+        margin: 0;
+        white-space: nowrap;
+        background-color: white;
         display: inline;
-        flex-grow: 1;
+        padding-right: 5px;
+    }
+    h5:before {
+        content: ".................................................";
+        width: 0;
+        float: left;
     }
     p {
-        display: inline;
+        float: right;
     }
 }
 
-.products {
-    border: 1px solid grey;
-    margin-right: 10px;
-    margin-bottom: 20px;
-}
-
-.product-title {
-    display: flex;
-    justify-content: space-between;
+.product-single {
+    // display: flex;
+    .product-images {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+    }
+    .product-content {
+        display: inline-block;
+        width: 49%;
+    }
 }

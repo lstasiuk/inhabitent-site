@@ -20,24 +20,22 @@ get_header(); ?>
  */
 
 ?>
+<section class="product-single">
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php if ( has_post_thumbnail() ) : ?>
-			<?php the_post_thumbnail( 'large' ); ?>
-		<?php endif; ?>
+<div class="product-images">
+			<?php the_post_thumbnail( ); ?>
+</div>
 
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-
-	<div class="entry-content">
-  <?php echo CFS()->get( 'price' ); ?>
+<div class="product-content">
+		<h2><?php the_title( );?></h2>
+   <?php echo CFS()->get( 'price' );?>
 		<?php the_content(); ?>
-		</div><!-- .entry-content -->
-</article><!-- #post-## -->
+		 </div>
 
+</section>
 
 		<?php endwhile; // End of the loop. ?>
-
+		
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

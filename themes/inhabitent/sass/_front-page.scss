@@ -29,16 +29,31 @@ p {
 .journals {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     text-transform: uppercase;
     align-items: center;
 }
 
 .journal-post {
-    #read-entry {
-        text-transform: uppercase;
+    width: 20%;
+    height: 500px;
+    border: 1px solid grey;
+    a {
         text-decoration: none;
     }
+    #read-entry {
+        text-transform: uppercase;
+        color: #248a83;
+        font-family: "Novecento Sans Web";
+    }
+    img {
+        height: 200px;
+        width: 100px;
+    }
+}
+
+.posted-on {
+    font-size: 6px;
 }
 
 #shopping {
@@ -91,7 +106,7 @@ p {
         border: 2px solid #d99054;
         margin-bottom: 20px;
         background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/adventure-photos/canoe-girl.jpg);
-        background-size: cover, cover;
+        background-size: cover;
         background-position: center, center;
         &:hover {
             border: 5px solid pink;

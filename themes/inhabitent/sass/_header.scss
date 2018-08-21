@@ -15,3 +15,19 @@
         margin-right: 100px;
     }
 }
+
+.site-header {
+    background: transparent;
+    a {
+        color: #248a83;
+        display: block;
+        text-decoration: none;
+    }
+    a:visited {
+        color: #248a83;
+    }
+    a:hover,
+    a:active {
+        color: black;
+    }
+}

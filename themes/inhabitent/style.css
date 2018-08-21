@@ -286,6 +286,18 @@ th {
   #site-navigation ul {
     margin-right: 100px; }
 
+.site-header {
+  background: transparent; }
+  .site-header a {
+    color: #248a83;
+    display: block;
+    text-decoration: none; }
+  .site-header a:visited {
+    color: #248a83; }
+  .site-header a:hover,
+  .site-header a:active {
+    color: black; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -526,8 +538,30 @@ a {
     float: left;
     position: relative; }
   .main-navigation a {
+    color: #248a83;
     display: block;
     text-decoration: none; }
+  .main-navigation a:visited {
+    color: #248a83; }
+  .main-navigation a:hover,
+  .main-navigation a:active {
+    color: black; }
+
+body.page-id-184 .main-navigation a,
+body.home .main-navigation a {
+  color: white;
+  display: block;
+  text-decoration: none; }
+
+body.page-id-184 .main-navigation a:visited,
+body.home .main-navigation a:visited {
+  color: white; }
+
+body.page-id-184 .main-navigation a:hover,
+body.page-id-184 .main-navigation a:active,
+body.home .main-navigation a:hover,
+body.home .main-navigation a:active {
+  color: #f0e4d1; }
 
 /* Small menu. */
 .menu-toggle,
@@ -763,9 +797,10 @@ object {
 
 .footer-logo {
   width: 300px;
-  height: 150px;
-  margin-left: 150px;
-  margin-top: 70px; }
+  margin-left: 150px; }
+  .footer-logo img {
+    width: 500px;
+    height: 300px; }
 
 .footer-container {
   text-align: start;
@@ -873,17 +908,29 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   text-transform: uppercase;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
 
-.journal-post #read-entry {
-  text-transform: uppercase;
-  text-decoration: none; }
+.journal-post {
+  width: 20%;
+  height: 500px;
+  border: 1px solid grey; }
+  .journal-post a {
+    text-decoration: none; }
+  .journal-post #read-entry {
+    text-transform: uppercase;
+    color: #248a83;
+    font-family: "Novecento Sans Web"; }
+  .journal-post img {
+    height: 200px;
+    width: 100px; }
+
+.posted-on {
+  font-size: 6px; }
 
 #shopping {
   width: 20%;
@@ -927,7 +974,7 @@ p {
     margin-bottom: 20px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../images/adventure-photos/canoe-girl.jpg);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/adventure-photos/canoe-girl.jpg);
-    background-size: cover, cover;
+    background-size: cover;
     background-position: center, center; }
     .adventure-posts .canoe:hover {
       border: 5px solid pink; }
@@ -1021,31 +1068,36 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  .products-container img {
-    border-bottom: 5px solid grey;
-    height: 300px;
-    width: 300px; }
-  .products-container h5 {
-    content: ".............";
-    -webkit-box-flex: nowrap;
-        -ms-flex: nowrap;
-            flex: nowrap;
-    display: inline;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1; }
-  .products-container p {
-    display: inline; }
 
 .products {
-  border: 1px solid grey;
+  border: 1px solid #a1a1a1;
   margin-right: 10px;
   margin-bottom: 20px; }
+  .products img {
+    border-bottom: 5px solid #a1a1a1;
+    height: 300px;
+    width: 300px; }
+  .products h5 {
+    font-weight: 300;
+    font-family: "Novecento San Web";
+    font-size: 18px;
+    margin: 0;
+    white-space: nowrap;
+    background-color: white;
+    display: inline;
+    padding-right: 5px; }
+  .products h5:before {
+    content: ".................................................";
+    width: 0;
+    float: left; }
+  .products p {
+    float: right; }
 
-.product-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+.product-single .product-images {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top; }
+
+.product-single .product-content {
+  display: inline-block;
+  width: 49%; }

@@ -75,12 +75,38 @@ a {
         &.focus>a {}
     }
     a {
+        color: #248a83;
         display: block;
         text-decoration: none;
+    }
+    a:visited {
+        color: #248a83;
+    }
+    a:hover,
+    a:active {
+        color: black;
     }
     .current_page_item>a,
     .current-menu-item>a,
     .current_page_ancestor>a {}
+}
+
+body.page-id-184,
+body.home {
+    .main-navigation {
+        a {
+            color: white;
+            display: block;
+            text-decoration: none;
+        }
+        a:visited {
+            color: white;
+        }
+        a:hover,
+        a:active {
+            color: #f0e4d1;
+        }
+    }
 }
 
 
